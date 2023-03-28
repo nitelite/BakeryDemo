@@ -3,8 +3,6 @@ package main.domain;
 import lombok.Data;
 import main.service.IDGenerator;
 
-import java.math.BigDecimal;
-
 @Data
 public class Ingredient {
 	String id;
