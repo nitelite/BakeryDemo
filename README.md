@@ -5,7 +5,9 @@ Bakeriet lager flere produkter, etter registrerte oppskrifter. Produktene er kla
 
 For hver ingrediens skal systemet lagre ID, navn og lagerbeholdning i gram.
 
-For hver oppskrift skal systemet lagre ID, et navn, dato oppskriften ble registrert, en produktklassifisering (Kremkake, Gjærbakst, Småkake eller Annet Bakverk) og en eller flere ingredienser. Det skal lagres både hvilke ingredienser som trengs, og hvor mye som trengs av hver ingrediens i gram. (For enkelhets skyld måler vi absolutt alle ingredienser i gram.)
+For hver oppskrift skal systemet lagre ID, et navn, dato oppskriften ble registrert, en produktklassifisering (Kremkake, Gjærbakst, Småkake eller Annet Bakverk) og en eller flere ingredienser.
+
+Det skal lagres både hvilke ingredienser som trengs, og hvor mye som trengs av hver ingrediens i gram. (For enkelhets skyld måler vi absolutt alle ingredienser i gram.)
 
 ## Funksjonalitetskrav 1: Registrering og uthenting
 * Lag en metode for å registrere en ny ingrediens. Ta alt utenom ID som parameter, ID'en bør genereres av systemet.
